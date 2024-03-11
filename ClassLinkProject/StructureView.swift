@@ -1,5 +1,6 @@
 import SwiftUI
 
+/// A custom button view.
 struct CustomButton: View {
     let text: String
     let width: CGFloat
@@ -19,6 +20,7 @@ struct CustomButton: View {
     }
 }
 
+/// A tab view bar.
 struct tabViewBar: View {
     var body: some View {
         TabView {
@@ -38,12 +40,14 @@ struct tabViewBar: View {
     }
 }
 
+/// A big orange button with text and an image.
 struct OrangeBigButton: View {
     let text: String
     let imageButton: Image
+    
     var body: some View {
         Button(action: {
-            // Action à effectuer lors du tap sur le bouton
+            // Action to perform when the button is tapped
         }) {
             ZStack {
                 Rectangle()
@@ -76,7 +80,7 @@ struct OrangeBigButton: View {
     }
 }
 
-
+/// A non-filled orange button with text and an image.
 struct NonFilledOrangeButton: View {
     let text: String
     let imageButton: Image
@@ -91,7 +95,6 @@ struct NonFilledOrangeButton: View {
                     .frame(width: 285,height: 85)
                 
                 HStack {
-                    
                     Text(text)
                         .foregroundColor(.orange)
                         .padding(.leading, 8)
@@ -104,6 +107,7 @@ struct NonFilledOrangeButton: View {
     }
 }
 
+/// A button with a question and an answer.
 struct ButtonAnswer: View {
     let question: String
     let answer: String
@@ -126,6 +130,7 @@ struct ButtonAnswer: View {
     }
 }
 
+/// A rectangular togglable button.
 struct RectangularTogglableButton: View {
     @State private var isClicked = false
     let buttonText: String
@@ -154,7 +159,7 @@ struct RectangularTogglableButton: View {
     }
 }
 
-
+/// The main content view.
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 20) {
