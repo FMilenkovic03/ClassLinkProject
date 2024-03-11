@@ -143,9 +143,9 @@ struct RectangularTogglableButton: View {
                             .foregroundStyle(.orangeEdu)
                         Spacer()
                         Circle()
-                            .stroke(Color.orangeEdu, lineWidth: 2)
+                            .fill(isClicked ? .orangeEdu : .clear)
+                            .overlay(Circle().stroke(Color.orangeEdu, lineWidth: 2))
                             .frame(width: 30, height: 30)
-                            .foregroundStyle(isClicked ? .orangeEdu : .clear)
                         }
                         .padding(.horizontal)
                     )
