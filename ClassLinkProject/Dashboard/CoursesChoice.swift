@@ -1,11 +1,13 @@
 import SwiftUI
 
-struct ContentView: View {
+struct CoursesChoice: View {
     var body: some View {
         Text("Hello, World!")
     }
 }
 
 #Preview {
-    ContentView()
+
+    CoursesChoice()
+
 }

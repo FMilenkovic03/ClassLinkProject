@@ -161,7 +161,8 @@ struct RectangularTogglableButton: View {
 }
 
 /// The main content view.
-struct StructureView: View {
+
+struct StructuresView: View {
     var body: some View {
         VStack(spacing: 20) {
             CustomButton(text: "Inscription", width: 200, height: 50, cornerRadius: 30)
@@ -175,5 +176,7 @@ struct StructureView: View {
 }
 
 #Preview {
-    StructureView()
+
+    StructuresView()
+
 }

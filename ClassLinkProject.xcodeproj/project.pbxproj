@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		C32BFA652BA0674C0023E27D /* diagnosticAccueil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA5D2BA0674C0023E27D /* diagnosticAccueil.swift */; };
 		C32BFA662BA0674C0023E27D /* diagnosticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA5E2BA0674C0023E27D /* diagnosticFeedback.swift */; };
 		C32BFA672BA0674C0023E27D /* diagnosticTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA5F2BA0674C0023E27D /* diagnosticTest.swift */; };
@@ -50,10 +51,28 @@
 		C32BFA7A2BA0686E0023E27D /* Prof.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prof.swift; sourceTree = "<group>"; };
 		C32BFA7B2BA0686E0023E27D /* ProfList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfList.swift; sourceTree = "<group>"; };
 		C32BFA7C2BA0686E0023E27D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+
+		0B28D3282B9F591400570383 /* ConnexionInscription in Resources */ = {isa = PBXBuildFile; fileRef = 0B28D3272B9F591400570383 /* ConnexionInscription */; };
+		0B28D32A2B9F591C00570383 /* Dashboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B28D3292B9F591C00570383 /* Dashboard */; };
+		0B28D32D2B9F592C00570383 /* InterfaceAtterissage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B28D32B2B9F592C00570383 /* InterfaceAtterissage.swift */; };
+		0B28D32E2B9F592C00570383 /* structures in Resources */ = {isa = PBXBuildFile; fileRef = 0B28D32C2B9F592C00570383 /* structures */; };
+		C34A3B7A2B9EFC17009D6764 /* ClassLinkProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A3B792B9EFC17009D6764 /* ClassLinkProjectApp.swift */; };
+		C34A3B7E2B9EFC18009D6764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */; };
+		C34A3B812B9EFC18009D6764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34A3B802B9EFC18009D6764 /* Preview Assets.xcassets */; };
+		C34A3B8A2B9F03F3009D6764 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = C34A3B892B9F03F3009D6764 /* Models */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B28D3272B9F591400570383 /* ConnexionInscription */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ConnexionInscription; sourceTree = "<group>"; };
+		0B28D3292B9F591C00570383 /* Dashboard */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dashboard; sourceTree = "<group>"; };
+		0B28D32B2B9F592C00570383 /* InterfaceAtterissage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceAtterissage.swift; sourceTree = "<group>"; };
+		0B28D32C2B9F592C00570383 /* structures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = structures; sourceTree = "<group>"; };
+
 		C34A3B762B9EFC17009D6764 /* ClassLinkProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassLinkProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34A3B792B9EFC17009D6764 /* ClassLinkProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassLinkProjectApp.swift; sourceTree = "<group>"; };
 		C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C34A3B802B9EFC18009D6764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+
 		C3AA04D82B9F553800FCCE64 /* TendancesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendancesClass.swift; sourceTree = "<group>"; };
 		C3AA04D92B9F553800FCCE64 /* TendancesBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendancesBoard.swift; sourceTree = "<group>"; };
 		C3AA04DA2B9F553800FCCE64 /* TendancesSchool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendancesSchool.swift; sourceTree = "<group>"; };
@@ -70,6 +89,7 @@
 		C3AA04E82B9F553800FCCE64 /* CoursesChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesChoice.swift; sourceTree = "<group>"; };
 		C3AA04E92B9F553800FCCE64 /* Tendances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tendances.swift; sourceTree = "<group>"; };
 		C3AA04EE2B9F562500FCCE64 /* InterfaceAtterissage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceAtterissage.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,12 +209,14 @@
 		C34A3B782B9EFC17009D6764 /* ClassLinkProject */ = {
 			isa = PBXGroup;
 			children = (
+
 				C32BFA6C2BA067D40023E27D /* structures */,
 				C32BFA642BA0674C0023E27D /* ConnexionInscription */,
 				C3AA04D62B9F553800FCCE64 /* Dashboard */,
 				C32BFA7E2BA0686E0023E27D /* Models */,
 				C34A3B792B9EFC17009D6764 /* ClassLinkProjectApp.swift */,
 				C3AA04EE2B9F562500FCCE64 /* InterfaceAtterissage.swift */,
+
 				C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */,
 				C34A3B7F2B9EFC18009D6764 /* Preview Content */,
 			);
@@ -321,8 +343,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B28D32E2B9F592C00570383 /* structures in Resources */,
+				C34A3B8A2B9F03F3009D6764 /* Models in Resources */,
 				C34A3B812B9EFC18009D6764 /* Preview Assets.xcassets in Resources */,
 				C34A3B7E2B9EFC18009D6764 /* Assets.xcassets in Resources */,
+				0B28D32A2B9F591C00570383 /* Dashboard in Resources */,
+				0B28D3282B9F591400570383 /* ConnexionInscription in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,26 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32BFA652BA0674C0023E27D /* diagnosticAccueil.swift in Sources */,
-				C32BFA672BA0674C0023E27D /* diagnosticTest.swift in Sources */,
-				C32BFA6D2BA067D40023E27D /* StructureView.swift in Sources */,
-				C32BFA682BA0674C0023E27D /* ChoixInscription.swift in Sources */,
-				C32BFA662BA0674C0023E27D /* diagnosticFeedback.swift in Sources */,
+
 				C34A3B7A2B9EFC17009D6764 /* ClassLinkProjectApp.swift in Sources */,
-				C32BFA842BA0686E0023E27D /* MessageHistorique.swift in Sources */,
-				C32BFA852BA0686E0023E27D /* Eleve.swift in Sources */,
-				C32BFA892BA0686E0023E27D /* User.swift in Sources */,
-				C32BFA692BA0674C0023E27D /* Connexion.swift in Sources */,
-				C32BFA862BA0686E0023E27D /* EleveList.swift in Sources */,
-				C32BFA6A2BA0674C0023E27D /* Inscription.swift in Sources */,
-				C32BFA7F2BA0686E0023E27D /* Classes.swift in Sources */,
-				C32BFA812BA0686E0023E27D /* Question.swift in Sources */,
-				C32BFA822BA0686E0023E27D /* TestDiagnostique.swift in Sources */,
-				C32BFA872BA0686E0023E27D /* Prof.swift in Sources */,
-				C3AA04EF2B9F562500FCCE64 /* InterfaceAtterissage.swift in Sources */,
-				C32BFA802BA0686E0023E27D /* Cours.swift in Sources */,
-				C32BFA832BA0686E0023E27D /* Message.swift in Sources */,
-				C32BFA882BA0686E0023E27D /* ProfList.swift in Sources */,
+				0B28D32D2B9F592C00570383 /* InterfaceAtterissage.swift in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClassLinkProject/Preview Content\"";
+				DEVELOPMENT_TEAM = R2UKV9YNAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -514,6 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClassLinkProject/Preview Content\"";
+				DEVELOPMENT_TEAM = R2UKV9YNAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
