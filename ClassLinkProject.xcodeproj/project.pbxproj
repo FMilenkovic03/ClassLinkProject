@@ -11,7 +11,9 @@
 		C34A3B7E2B9EFC18009D6764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */; };
 		C34A3B812B9EFC18009D6764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34A3B802B9EFC18009D6764 /* Preview Assets.xcassets */; };
 		C34A3B8A2B9F03F3009D6764 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = C34A3B892B9F03F3009D6764 /* Models */; };
-		C34A3B8C2B9F4AA0009D6764 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A3B8B2B9F4AA0009D6764 /* SwiftUIView.swift */; };
+		C3AA04EB2B9F560100FCCE64 /* structures in Resources */ = {isa = PBXBuildFile; fileRef = C3AA04EA2B9F560100FCCE64 /* structures */; };
+		C3AA04ED2B9F560F00FCCE64 /* ConnexionInscription in Resources */ = {isa = PBXBuildFile; fileRef = C3AA04EC2B9F560F00FCCE64 /* ConnexionInscription */; };
+		C3AA04EF2B9F562500FCCE64 /* InterfaceAtterissage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA04EE2B9F562500FCCE64 /* InterfaceAtterissage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +22,24 @@
 		C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C34A3B802B9EFC18009D6764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C34A3B892B9F03F3009D6764 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
-		C34A3B8B2B9F4AA0009D6764 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		C3AA04D82B9F553800FCCE64 /* TendancesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendancesClass.swift; sourceTree = "<group>"; };
+		C3AA04D92B9F553800FCCE64 /* TendancesBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendancesBoard.swift; sourceTree = "<group>"; };
+		C3AA04DA2B9F553800FCCE64 /* TendancesSchool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendancesSchool.swift; sourceTree = "<group>"; };
+		C3AA04DC2B9F553800FCCE64 /* Ressources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ressources.swift; sourceTree = "<group>"; };
+		C3AA04DD2B9F553800FCCE64 /* QuestionsHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsHistory.swift; sourceTree = "<group>"; };
+		C3AA04DE2B9F553800FCCE64 /* QuestionAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswer.swift; sourceTree = "<group>"; };
+		C3AA04DF2B9F553800FCCE64 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		C3AA04E02B9F553800FCCE64 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		C3AA04E22B9F553800FCCE64 /* OccurentQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccurentQuestions.swift; sourceTree = "<group>"; };
+		C3AA04E32B9F553800FCCE64 /* QuestionFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFeedback.swift; sourceTree = "<group>"; };
+		C3AA04E52B9F553800FCCE64 /* DiagnosticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticView.swift; sourceTree = "<group>"; };
+		C3AA04E62B9F553800FCCE64 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C3AA04E72B9F553800FCCE64 /* SendMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessage.swift; sourceTree = "<group>"; };
+		C3AA04E82B9F553800FCCE64 /* CoursesChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesChoice.swift; sourceTree = "<group>"; };
+		C3AA04E92B9F553800FCCE64 /* Tendances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tendances.swift; sourceTree = "<group>"; };
+		C3AA04EA2B9F560100FCCE64 /* structures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = structures; sourceTree = "<group>"; };
+		C3AA04EC2B9F560F00FCCE64 /* ConnexionInscription */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ConnexionInscription; sourceTree = "<group>"; };
+		C3AA04EE2B9F562500FCCE64 /* InterfaceAtterissage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceAtterissage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +72,12 @@
 		C34A3B782B9EFC17009D6764 /* ClassLinkProject */ = {
 			isa = PBXGroup;
 			children = (
+				C3AA04EC2B9F560F00FCCE64 /* ConnexionInscription */,
+				C3AA04EA2B9F560100FCCE64 /* structures */,
+				C3AA04D62B9F553800FCCE64 /* Dashboard */,
 				C34A3B892B9F03F3009D6764 /* Models */,
 				C34A3B792B9EFC17009D6764 /* ClassLinkProjectApp.swift */,
-				C34A3B8B2B9F4AA0009D6764 /* SwiftUIView.swift */,
+				C3AA04EE2B9F562500FCCE64 /* InterfaceAtterissage.swift */,
 				C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */,
 				C34A3B7F2B9EFC18009D6764 /* Preview Content */,
 			);
@@ -68,6 +90,60 @@
 				C34A3B802B9EFC18009D6764 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3AA04D62B9F553800FCCE64 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA04D72B9F553800FCCE64 /* TendancesChilds */,
+				C3AA04DB2B9F553800FCCE64 /* CourseChoiceChilds */,
+				C3AA04DF2B9F553800FCCE64 /* Profile.swift */,
+				C3AA04E02B9F553800FCCE64 /* Question.swift */,
+				C3AA04E12B9F553800FCCE64 /* QuestionChilds */,
+				C3AA04E42B9F553800FCCE64 /* ProfileChilds */,
+				C3AA04E82B9F553800FCCE64 /* CoursesChoice.swift */,
+				C3AA04E92B9F553800FCCE64 /* Tendances.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		C3AA04D72B9F553800FCCE64 /* TendancesChilds */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA04D82B9F553800FCCE64 /* TendancesClass.swift */,
+				C3AA04D92B9F553800FCCE64 /* TendancesBoard.swift */,
+				C3AA04DA2B9F553800FCCE64 /* TendancesSchool.swift */,
+			);
+			path = TendancesChilds;
+			sourceTree = "<group>";
+		};
+		C3AA04DB2B9F553800FCCE64 /* CourseChoiceChilds */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA04DC2B9F553800FCCE64 /* Ressources.swift */,
+				C3AA04DD2B9F553800FCCE64 /* QuestionsHistory.swift */,
+				C3AA04DE2B9F553800FCCE64 /* QuestionAnswer.swift */,
+			);
+			path = CourseChoiceChilds;
+			sourceTree = "<group>";
+		};
+		C3AA04E12B9F553800FCCE64 /* QuestionChilds */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA04E22B9F553800FCCE64 /* OccurentQuestions.swift */,
+				C3AA04E32B9F553800FCCE64 /* QuestionFeedback.swift */,
+			);
+			path = QuestionChilds;
+			sourceTree = "<group>";
+		};
+		C3AA04E42B9F553800FCCE64 /* ProfileChilds */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA04E52B9F553800FCCE64 /* DiagnosticView.swift */,
+				C3AA04E62B9F553800FCCE64 /* ProfileView.swift */,
+				C3AA04E72B9F553800FCCE64 /* SendMessage.swift */,
+			);
+			path = ProfileChilds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +206,9 @@
 			files = (
 				C34A3B8A2B9F03F3009D6764 /* Models in Resources */,
 				C34A3B812B9EFC18009D6764 /* Preview Assets.xcassets in Resources */,
+				C3AA04EB2B9F560100FCCE64 /* structures in Resources */,
 				C34A3B7E2B9EFC18009D6764 /* Assets.xcassets in Resources */,
+				C3AA04ED2B9F560F00FCCE64 /* ConnexionInscription in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34A3B8C2B9F4AA0009D6764 /* SwiftUIView.swift in Sources */,
 				C34A3B7A2B9EFC17009D6764 /* ClassLinkProjectApp.swift in Sources */,
+				C3AA04EF2B9F562500FCCE64 /* InterfaceAtterissage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

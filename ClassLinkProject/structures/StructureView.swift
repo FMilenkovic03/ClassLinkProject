@@ -148,11 +148,8 @@ struct RectangularTogglableButton: View {
                             .foregroundStyle(.orangeEdu)
                         Spacer()
                         Circle()
-<<<<<<< HEAD:ClassLinkProject/StructureView.swift
                             .fill(isClicked ? .orangeEdu : .clear)
-=======
                             .fill(isClicked ? Color.orangeEdu : Color.clear)
->>>>>>> 54a7b01ae094f38c7fe05069f03324467d56929f:ClassLinkProject/structures/StructureView.swift
                             .overlay(Circle().stroke(Color.orangeEdu, lineWidth: 2))
                             .frame(width: 30, height: 30)
                         }
