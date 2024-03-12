@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B28D3282B9F591400570383 /* ConnexionInscription in Resources */ = {isa = PBXBuildFile; fileRef = 0B28D3272B9F591400570383 /* ConnexionInscription */; };
+		0B28D32A2B9F591C00570383 /* Dashboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B28D3292B9F591C00570383 /* Dashboard */; };
+		0B28D32D2B9F592C00570383 /* InterfaceAtterissage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B28D32B2B9F592C00570383 /* InterfaceAtterissage.swift */; };
+		0B28D32E2B9F592C00570383 /* structures in Resources */ = {isa = PBXBuildFile; fileRef = 0B28D32C2B9F592C00570383 /* structures */; };
 		C34A3B7A2B9EFC17009D6764 /* ClassLinkProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A3B792B9EFC17009D6764 /* ClassLinkProjectApp.swift */; };
 		C34A3B7E2B9EFC18009D6764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */; };
 		C34A3B812B9EFC18009D6764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34A3B802B9EFC18009D6764 /* Preview Assets.xcassets */; };
-		C34A3B882B9EFC5D009D6764 /* StructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A3B872B9EFC5D009D6764 /* StructureView.swift */; };
 		C34A3B8A2B9F03F3009D6764 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = C34A3B892B9F03F3009D6764 /* Models */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B28D3272B9F591400570383 /* ConnexionInscription */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ConnexionInscription; sourceTree = "<group>"; };
+		0B28D3292B9F591C00570383 /* Dashboard */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dashboard; sourceTree = "<group>"; };
+		0B28D32B2B9F592C00570383 /* InterfaceAtterissage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceAtterissage.swift; sourceTree = "<group>"; };
+		0B28D32C2B9F592C00570383 /* structures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = structures; sourceTree = "<group>"; };
 		C34A3B762B9EFC17009D6764 /* ClassLinkProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassLinkProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34A3B792B9EFC17009D6764 /* ClassLinkProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassLinkProjectApp.swift; sourceTree = "<group>"; };
 		C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C34A3B802B9EFC18009D6764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C34A3B872B9EFC5D009D6764 /* StructureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructureView.swift; sourceTree = "<group>"; };
 		C34A3B892B9F03F3009D6764 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,9 +59,12 @@
 		C34A3B782B9EFC17009D6764 /* ClassLinkProject */ = {
 			isa = PBXGroup;
 			children = (
+				0B28D32B2B9F592C00570383 /* InterfaceAtterissage.swift */,
+				0B28D32C2B9F592C00570383 /* structures */,
+				0B28D3292B9F591C00570383 /* Dashboard */,
+				0B28D3272B9F591400570383 /* ConnexionInscription */,
 				C34A3B892B9F03F3009D6764 /* Models */,
 				C34A3B792B9EFC17009D6764 /* ClassLinkProjectApp.swift */,
-				C34A3B872B9EFC5D009D6764 /* StructureView.swift */,
 				C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */,
 				C34A3B7F2B9EFC18009D6764 /* Preview Content */,
 			);
@@ -128,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B28D32E2B9F592C00570383 /* structures in Resources */,
 				C34A3B8A2B9F03F3009D6764 /* Models in Resources */,
 				C34A3B812B9EFC18009D6764 /* Preview Assets.xcassets in Resources */,
 				C34A3B7E2B9EFC18009D6764 /* Assets.xcassets in Resources */,
+				0B28D32A2B9F591C00570383 /* Dashboard in Resources */,
+				0B28D3282B9F591400570383 /* ConnexionInscription in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34A3B882B9EFC5D009D6764 /* StructureView.swift in Sources */,
 				C34A3B7A2B9EFC17009D6764 /* ClassLinkProjectApp.swift in Sources */,
+				0B28D32D2B9F592C00570383 /* InterfaceAtterissage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClassLinkProject/Preview Content\"";
+				DEVELOPMENT_TEAM = R2UKV9YNAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClassLinkProject/Preview Content\"";
+				DEVELOPMENT_TEAM = R2UKV9YNAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -11,7 +11,7 @@ import SwiftUI
 struct ClassLinkProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InterfaceAtterissage()
         }
     }
 }
