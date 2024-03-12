@@ -14,6 +14,17 @@
 		C32BFA692BA0674C0023E27D /* Connexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA622BA0674C0023E27D /* Connexion.swift */; };
 		C32BFA6A2BA0674C0023E27D /* Inscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA632BA0674C0023E27D /* Inscription.swift */; };
 		C32BFA6D2BA067D40023E27D /* StructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA6B2BA067D40023E27D /* StructureView.swift */; };
+		C32BFA7F2BA0686E0023E27D /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA6E2BA0686E0023E27D /* Classes.swift */; };
+		C32BFA802BA0686E0023E27D /* Cours.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA702BA0686E0023E27D /* Cours.swift */; };
+		C32BFA812BA0686E0023E27D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA722BA0686E0023E27D /* Question.swift */; };
+		C32BFA822BA0686E0023E27D /* TestDiagnostique.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA732BA0686E0023E27D /* TestDiagnostique.swift */; };
+		C32BFA832BA0686E0023E27D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA752BA0686E0023E27D /* Message.swift */; };
+		C32BFA842BA0686E0023E27D /* MessageHistorique.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA762BA0686E0023E27D /* MessageHistorique.swift */; };
+		C32BFA852BA0686E0023E27D /* Eleve.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA782BA0686E0023E27D /* Eleve.swift */; };
+		C32BFA862BA0686E0023E27D /* EleveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA792BA0686E0023E27D /* EleveList.swift */; };
+		C32BFA872BA0686E0023E27D /* Prof.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA7A2BA0686E0023E27D /* Prof.swift */; };
+		C32BFA882BA0686E0023E27D /* ProfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA7B2BA0686E0023E27D /* ProfList.swift */; };
+		C32BFA892BA0686E0023E27D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFA7C2BA0686E0023E27D /* User.swift */; };
 		C34A3B7A2B9EFC17009D6764 /* ClassLinkProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A3B792B9EFC17009D6764 /* ClassLinkProjectApp.swift */; };
 		C34A3B7E2B9EFC18009D6764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */; };
 		C34A3B812B9EFC18009D6764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34A3B802B9EFC18009D6764 /* Preview Assets.xcassets */; };
@@ -28,6 +39,17 @@
 		C32BFA622BA0674C0023E27D /* Connexion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connexion.swift; sourceTree = "<group>"; };
 		C32BFA632BA0674C0023E27D /* Inscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inscription.swift; sourceTree = "<group>"; };
 		C32BFA6B2BA067D40023E27D /* StructureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructureView.swift; sourceTree = "<group>"; };
+		C32BFA6E2BA0686E0023E27D /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		C32BFA702BA0686E0023E27D /* Cours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cours.swift; sourceTree = "<group>"; };
+		C32BFA722BA0686E0023E27D /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		C32BFA732BA0686E0023E27D /* TestDiagnostique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDiagnostique.swift; sourceTree = "<group>"; };
+		C32BFA752BA0686E0023E27D /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C32BFA762BA0686E0023E27D /* MessageHistorique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageHistorique.swift; sourceTree = "<group>"; };
+		C32BFA782BA0686E0023E27D /* Eleve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eleve.swift; sourceTree = "<group>"; };
+		C32BFA792BA0686E0023E27D /* EleveList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EleveList.swift; sourceTree = "<group>"; };
+		C32BFA7A2BA0686E0023E27D /* Prof.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prof.swift; sourceTree = "<group>"; };
+		C32BFA7B2BA0686E0023E27D /* ProfList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfList.swift; sourceTree = "<group>"; };
+		C32BFA7C2BA0686E0023E27D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C34A3B762B9EFC17009D6764 /* ClassLinkProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassLinkProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34A3B792B9EFC17009D6764 /* ClassLinkProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassLinkProjectApp.swift; sourceTree = "<group>"; };
 		C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +112,64 @@
 			path = structures;
 			sourceTree = "<group>";
 		};
+		C32BFA6F2BA0686E0023E27D /* Classe */ = {
+			isa = PBXGroup;
+			children = (
+				C32BFA6E2BA0686E0023E27D /* Classes.swift */,
+			);
+			path = Classe;
+			sourceTree = "<group>";
+		};
+		C32BFA712BA0686E0023E27D /* Cours */ = {
+			isa = PBXGroup;
+			children = (
+				C32BFA702BA0686E0023E27D /* Cours.swift */,
+			);
+			path = Cours;
+			sourceTree = "<group>";
+		};
+		C32BFA742BA0686E0023E27D /* Diagnostique */ = {
+			isa = PBXGroup;
+			children = (
+				C32BFA722BA0686E0023E27D /* Question.swift */,
+				C32BFA732BA0686E0023E27D /* TestDiagnostique.swift */,
+			);
+			path = Diagnostique;
+			sourceTree = "<group>";
+		};
+		C32BFA772BA0686E0023E27D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				C32BFA752BA0686E0023E27D /* Message.swift */,
+				C32BFA762BA0686E0023E27D /* MessageHistorique.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		C32BFA7D2BA0686E0023E27D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C32BFA782BA0686E0023E27D /* Eleve.swift */,
+				C32BFA792BA0686E0023E27D /* EleveList.swift */,
+				C32BFA7A2BA0686E0023E27D /* Prof.swift */,
+				C32BFA7B2BA0686E0023E27D /* ProfList.swift */,
+				C32BFA7C2BA0686E0023E27D /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		C32BFA7E2BA0686E0023E27D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C32BFA6F2BA0686E0023E27D /* Classe */,
+				C32BFA712BA0686E0023E27D /* Cours */,
+				C32BFA742BA0686E0023E27D /* Diagnostique */,
+				C32BFA772BA0686E0023E27D /* Message */,
+				C32BFA7D2BA0686E0023E27D /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C34A3B6D2B9EFC17009D6764 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +192,7 @@
 				C32BFA6C2BA067D40023E27D /* structures */,
 				C32BFA642BA0674C0023E27D /* ConnexionInscription */,
 				C3AA04D62B9F553800FCCE64 /* Dashboard */,
+				C32BFA7E2BA0686E0023E27D /* Models */,
 				C34A3B792B9EFC17009D6764 /* ClassLinkProjectApp.swift */,
 				C3AA04EE2B9F562500FCCE64 /* InterfaceAtterissage.swift */,
 				C34A3B7D2B9EFC18009D6764 /* Assets.xcassets */,
@@ -258,9 +339,20 @@
 				C32BFA682BA0674C0023E27D /* ChoixInscription.swift in Sources */,
 				C32BFA662BA0674C0023E27D /* diagnosticFeedback.swift in Sources */,
 				C34A3B7A2B9EFC17009D6764 /* ClassLinkProjectApp.swift in Sources */,
+				C32BFA842BA0686E0023E27D /* MessageHistorique.swift in Sources */,
+				C32BFA852BA0686E0023E27D /* Eleve.swift in Sources */,
+				C32BFA892BA0686E0023E27D /* User.swift in Sources */,
 				C32BFA692BA0674C0023E27D /* Connexion.swift in Sources */,
+				C32BFA862BA0686E0023E27D /* EleveList.swift in Sources */,
 				C32BFA6A2BA0674C0023E27D /* Inscription.swift in Sources */,
+				C32BFA7F2BA0686E0023E27D /* Classes.swift in Sources */,
+				C32BFA812BA0686E0023E27D /* Question.swift in Sources */,
+				C32BFA822BA0686E0023E27D /* TestDiagnostique.swift in Sources */,
+				C32BFA872BA0686E0023E27D /* Prof.swift in Sources */,
 				C3AA04EF2B9F562500FCCE64 /* InterfaceAtterissage.swift in Sources */,
+				C32BFA802BA0686E0023E27D /* Cours.swift in Sources */,
+				C32BFA832BA0686E0023E27D /* Message.swift in Sources */,
+				C32BFA882BA0686E0023E27D /* ProfList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
