@@ -1,11 +1,14 @@
 import SwiftUI
 
-struct DiagnoscticFeedback: View {
+struct diagnosticFeedback: View {
+
+
     var body: some View {
         Text("Hello, World!")
     }
 }
 
-#Preview {
-    DiagnoscticFeedback()
+#Preview{
+    diagnosticFeedback()
+
 }

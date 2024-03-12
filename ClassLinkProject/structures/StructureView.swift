@@ -148,6 +148,7 @@ struct RectangularTogglableButton: View {
                             .foregroundStyle(.orangeEdu)
                         Spacer()
                         Circle()
+                            .fill(isClicked ? .orangeEdu : .clear)
                             .fill(isClicked ? Color.orangeEdu : Color.clear)
                             .overlay(Circle().stroke(Color.orangeEdu, lineWidth: 2))
                             .frame(width: 30, height: 30)
@@ -160,6 +161,7 @@ struct RectangularTogglableButton: View {
 }
 
 /// The main content view.
+
 struct StructuresView: View {
     var body: some View {
         VStack(spacing: 20) {
@@ -174,5 +176,7 @@ struct StructuresView: View {
 }
 
 #Preview {
+
     StructuresView()
+
 }

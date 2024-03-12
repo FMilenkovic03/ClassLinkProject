@@ -7,5 +7,7 @@ struct CoursesChoice: View {
 }
 
 #Preview {
+
     CoursesChoice()
+
 }

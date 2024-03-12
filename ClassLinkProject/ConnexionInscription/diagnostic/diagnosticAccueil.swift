@@ -1,11 +1,13 @@
 import SwiftUI
 
-struct DiagnoscticAccueil: View {
+
+struct diagnosticAccueil: View {
+
     var body: some View {
         Text("Hello, World!")
     }
 }
 
 #Preview {
-    DiagnoscticAccueil()
+    diagnosticAccueil()
 }
